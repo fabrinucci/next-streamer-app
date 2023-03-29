@@ -1,4 +1,4 @@
-import { Menu } from '@headlessui/react';
+import { Menu, Transition } from '@headlessui/react';
 import { TbDotsVertical } from 'react-icons/tb';
 
 const links = [
@@ -14,21 +14,30 @@ export function Dropdown() {
         <TbDotsVertical size={22} />
       </Menu.Button>
 
-      <Menu.Items className='absolute top-10 -left-24 flex flex-col gap-2 rounded-md bg-zinc-800 px-2 py-2 sm:left-0 lg:top-7'>
-        <p className='m-1 text-gray-400'>General</p>
-        {links.map((link) => (
-          <Menu.Item key={link.label}>
-            {({ active }) => (
-              <a
-                className={`w-40 p-1 ${active && 'rounded-md bg-zinc-700'}`}
-                href={link.href}
-              >
-                {link.label}
-              </a>
-            )}
-          </Menu.Item>
-        ))}
-      </Menu.Items>
+      <Transition
+        enter='transition ease-out duration-100'
+        enterFrom='transform opacity-0 scale-95'
+        enterTo='transform opacity-100 scale-100'
+        leave='transition ease-in duration-75'
+        leaveFrom='transform opacity-100 scale-100'
+        leaveTo='transform opacity-0 scale-95'
+      >
+        <Menu.Items className='absolute top-3 -left-20 flex flex-col gap-2 rounded-md bg-zinc-800 px-2 py-2 sm:top-5 sm:left-2'>
+          <p className='m-1 text-gray-400'>General</p>
+          {links.map((link) => (
+            <Menu.Item key={link.label}>
+              {({ active }) => (
+                <a
+                  className={`w-40 p-1 ${active && 'rounded-md bg-zinc-700'}`}
+                  href={link.href}
+                >
+                  {link.label}
+                </a>
+              )}
+            </Menu.Item>
+          ))}
+        </Menu.Items>
+      </Transition>
     </Menu>
   );
 }

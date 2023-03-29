@@ -4,11 +4,16 @@ import Link from 'next/link';
 import { Dropdown, MobileMenu } from './';
 import { TbUser } from 'react-icons/tb';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { useSession } from 'next-auth/react';
+import { AccountMenu } from './AccountMenu';
 
 const logo = 'logo.svg';
 
 export const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState<boolean>(false);
+
+  const { data: session } = useSession();
+
   const handleNav = () => {
     setNav(!nav);
     console.log(nav);
@@ -37,11 +42,26 @@ export const Navbar = () => {
         />
       </section>
 
-      <section className='mr-5 hidden items-center gap-2 md:flex'>
-        <button className='rounded-md bg-green-600 py-1 px-4 font-semibold'>
-          Account
-        </button>
-        <TbUser size={22} />
+      <section className='mr-5 hidden items-center md:flex'>
+        {session ? (
+          <div className='flex items-center gap-3'>
+            <div>
+              <p className='hidden lg:block'>
+                Welcome, <span className='font-semibold'>{session.user?.name}</span>
+              </p>
+            </div>
+            <AccountMenu />
+          </div>
+        ) : (
+          <div className='flex items-center gap-2'>
+            <Link href='/account'>
+              <button className='rounded-md bg-green-700 py-1 px-4 font-semibold'>
+                Sign in
+              </button>
+            </Link>
+            <TbUser size={22} />
+          </div>
+        )}
       </section>
 
       <section onClick={handleNav} className='z-10 mr-5 cursor-pointer md:hidden'>
