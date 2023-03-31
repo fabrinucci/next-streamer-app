@@ -20,7 +20,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className='flex items-center justify-between bg-zinc-900 py-3 text-gray-100'>
+    <nav className='flex items-center justify-between border-b border-black bg-zinc-900 py-3 text-gray-100'>
       <section className='ml-3 flex items-center gap-6 font-medium'>
         <Link href='/'>
           <Image src={logo} alt='Stream Bos HomePage' width={40} height={40} />
@@ -64,7 +64,7 @@ export const Navbar = () => {
         )}
       </section>
 
-      <section onClick={handleNav} className='z-10 mr-5 cursor-pointer md:hidden'>
+      <section onClick={handleNav} className='z-20 mr-5 cursor-pointer md:hidden'>
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </section>
 

@@ -9,7 +9,7 @@ const links = [
 
 export function Dropdown() {
   return (
-    <Menu as='div' className='relative' title='More'>
+    <Menu as='div' className='relative z-10' title='More'>
       <Menu.Button className='flex'>
         <TbDotsVertical size={22} />
       </Menu.Button>
@@ -22,7 +22,7 @@ export function Dropdown() {
         leaveFrom='transform opacity-100 scale-100'
         leaveTo='transform opacity-0 scale-95'
       >
-        <Menu.Items className='absolute top-3 -left-20 flex flex-col gap-2 rounded-md bg-zinc-800 px-2 py-2 sm:top-5 sm:left-2'>
+        <Menu.Items className='absolute top-3 -left-20 flex flex-col gap-2 rounded-md border-gray-500 bg-zinc-800 px-2 py-2 sm:top-5 sm:left-2 lg:border'>
           <p className='m-1 text-gray-400'>General</p>
           {links.map((link) => (
             <Menu.Item key={link.label}>

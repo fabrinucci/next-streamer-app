@@ -1,11 +1,12 @@
 import type { ReactElement } from 'react';
 
 import { Layout } from 'components/layouts';
+import { SideMenu } from 'components/main';
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <SideMenu />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export const MobileMenu = ({ nav }: Props) => {
 
   return (
     <section
-      className={`fixed left-0 mr-5 flex h-screen w-full items-center justify-center bg-zinc-900 duration-300 ease-in md:hidden ${
+      className={`fixed left-0 z-10 mr-5 flex h-screen w-full items-center justify-center bg-zinc-900 duration-300 ease-in md:hidden ${
         nav ? 'top-0' : 'top-[-100%]'
       }`}
     >

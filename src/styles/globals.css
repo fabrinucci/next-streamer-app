@@ -3,5 +3,19 @@
 @tailwind utilities;
 
 html {
-  @apply scroll-smooth bg-black text-gray-100;
+  @apply scroll-smooth bg-[#0e0e10] text-gray-100;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #6a3c3c00;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6a6a6a;
+  border-radius: 10px;
 }
