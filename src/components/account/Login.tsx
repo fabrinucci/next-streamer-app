@@ -3,7 +3,7 @@ import { FaGithub, FaGoogle } from 'react-icons/fa';
 
 export const Login = () => {
   return (
-    <div className='mx-auto flex w-full max-w-[400px] flex-col pt-[100px]'>
+    <div className='mx-auto flex w-[80%] max-w-[400px] flex-col pt-[100px] sm:w-full'>
       <h2 className='mb-4 text-3xl font-semibold'>Login</h2>
       <p className='mb-4'>Choose the account you want to sign in with</p>
 

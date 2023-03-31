@@ -21,6 +21,7 @@ export const SideMenu = () => {
       <section className='mb-16'>
         {data.map((user) => (
           <div
+            title={`${user.username} channel`}
             className='flex cursor-pointer justify-between p-2 lg:pr-4 lg:duration-150 lg:ease-out lg:hover:bg-slate-700'
             key={user.id}
           >

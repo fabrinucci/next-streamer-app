@@ -5,8 +5,10 @@ export const Profile = () => {
   const { data: session } = useSession();
 
   return (
-    <div className='mx-auto flex w-full max-w-[400px] flex-col pt-[100px]'>
-      <h2 className='mb-4 text-3xl font-semibold'>Welcome, {session?.user?.name}</h2>
+    <div className='mx-auto flex w-[80%] max-w-[400px] flex-col pt-[100px]  sm:w-full'>
+      <h2 className='mb-4 text-2xl font-semibold sm:text-3xl'>
+        Welcome, {session?.user?.name}
+      </h2>
       <p className='mb-4'>
         Signed in as <span className='font-semibold'>{session?.user?.email}</span>
       </p>
@@ -20,7 +22,7 @@ export const Profile = () => {
         />
       </div>
       <button
-        className='flex h-12 w-auto items-center justify-center rounded-sm bg-gray-600 font-semibold duration-200 ease-in hover:bg-gray-800'
+        className='h-12 w-full rounded-sm bg-gray-600 font-semibold duration-200 ease-in hover:bg-gray-800 sm:flex sm:w-auto sm:items-center sm:justify-center'
         onClick={() => signOut()}
       >
         Sign Out

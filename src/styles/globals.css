@@ -6,7 +6,6 @@ html {
   @apply scroll-smooth bg-[#0e0e10] text-gray-100;
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 5px;
 }
