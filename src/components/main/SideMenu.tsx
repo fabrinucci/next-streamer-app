@@ -27,7 +27,7 @@ export const SideMenu = () => {
           >
             <div className='flex items-center justify-start gap-3'>
               <Image
-                className=''
+                className='rounded-full'
                 src={user.avatar}
                 alt={user.username}
                 width={40}

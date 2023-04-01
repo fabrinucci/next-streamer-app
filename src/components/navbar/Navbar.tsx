@@ -16,11 +16,10 @@ export const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
-    console.log(nav);
   };
 
   return (
-    <nav className='flex items-center justify-between border-b border-black bg-zinc-900 py-3 text-gray-100'>
+    <nav className='fixed z-[5] flex h-16 w-full items-center justify-between border-b border-black bg-zinc-900 py-3 text-gray-100'>
       <section className='ml-3 flex items-center gap-6 font-medium'>
         <Link href='/'>
           <Image src={logo} alt='Stream Bos HomePage' width={40} height={40} />
@@ -68,7 +67,7 @@ export const Navbar = () => {
         {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
       </section>
 
-      <MobileMenu nav={nav} />
+      <MobileMenu nav={nav} setNav={setNav} />
     </nav>
   );
 };

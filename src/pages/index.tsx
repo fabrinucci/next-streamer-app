@@ -1,12 +1,15 @@
 import type { ReactElement } from 'react';
 
 import { Layout } from 'components/layouts';
-import { SideMenu } from 'components/main';
+import { LiveChannels, SideMenu } from 'components/main';
 
 export default function Home() {
   return (
-    <div>
+    <div className='pt-16'>
       <SideMenu />
+      <main className='ml-[56px] px-6 lg:ml-[242px]'>
+        <LiveChannels />
+      </main>
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import { useSession, signOut, signIn } from 'next-auth/react';
+import { Dispatch, SetStateAction } from 'react';
 interface Props {
   nav: boolean;
+  setNav: Dispatch<SetStateAction<boolean>>;
 }
 
-export const MobileMenu = ({ nav }: Props) => {
+export const MobileMenu = ({ nav, setNav }: Props) => {
   const { data: session } = useSession();
 
   return (
@@ -14,13 +16,22 @@ export const MobileMenu = ({ nav }: Props) => {
       }`}
     >
       <ul className='text-center'>
-        <li className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
+        <li
+          onClick={() => setNav(false)}
+          className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'
+        >
           <Link href='/'>Home</Link>
         </li>
-        <li className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
+        <li
+          onClick={() => setNav(false)}
+          className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'
+        >
           <Link href='/live'>Live Channels</Link>
         </li>
-        <li className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
+        <li
+          onClick={() => setNav(false)}
+          className='mb-6 text-xl font-bold duration-200 ease-in hover:text-emerald-400'
+        >
           <Link href='/categories'>Top Categories</Link>
         </li>
 
@@ -28,30 +39,21 @@ export const MobileMenu = ({ nav }: Props) => {
           <p className='text-gray-400'>User Profile</p>
         </li>
 
-        {session ? (
-          <div>
-            <li className='text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
-              <Link href='/account'>Go to account</Link>
-            </li>
-            <li className='text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
-              <button
-                className='mt-6 flex h-12 w-full items-center justify-center rounded-md bg-gray-600'
-                onClick={() => signOut()}
-              >
-                Sign Out
-              </button>
-            </li>
-          </div>
-        ) : (
-          <li className='text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
-            <button
-              className='flex h-12 w-full items-center justify-center rounded-md bg-gray-600'
-              onClick={() => signIn()}
-            >
-              Sign In
-            </button>
-          </li>
-        )}
+        <li
+          onClick={() => setNav(false)}
+          className='text-xl font-bold duration-200 ease-in hover:text-emerald-400'
+        >
+          <Link href='/account'>{session ? 'Go to account' : 'Create account'}</Link>
+        </li>
+
+        <li className='text-xl font-bold duration-200 ease-in hover:text-emerald-400'>
+          <button
+            className='mt-6 flex h-12 w-full items-center justify-center rounded-md bg-gray-600'
+            onClick={session ? () => signOut() : () => signIn()}
+          >
+            {session ? 'Sign Out' : 'Sign In'}
+          </button>
+        </li>
       </ul>
     </section>
   );

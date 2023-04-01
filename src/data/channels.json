@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/65.jpg",
+    "username": "amasarrat0",
+    "title": "Body Fat Index of Love",
+    "game": "Gembucket",
+    "viewers": 89,
+    "image": "/assets/live/live1.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 2,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
+    "username": "khestrop1",
+    "title": "Zazie dans le métro",
+    "game": "Tempsoft",
+    "viewers": 10,
+    "image": "/assets/live/live2.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 3,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/8.jpg",
+    "username": "crothon2",
+    "title": "Slaughter of the Innocents",
+    "game": "Bitwolf",
+    "viewers": 37,
+    "image": "/assets/live/live3.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 4,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/15.jpg",
+    "username": "hwrankmore3",
+    "title": "Thérèse",
+    "game": "Bitwolf",
+    "viewers": 25,
+    "image": "/assets/live/live4.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 5,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/10.jpg",
+    "username": "asmedley4",
+    "title": "Inn of the Sixth Happiness, The",
+    "game": "Daltfresh",
+    "viewers": 12,
+    "image": "/assets/live/live5.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 6,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/28.jpg",
+    "username": "mwhittington5",
+    "title": "Golden Coach, The (Le carrosse d'or)",
+    "game": "Bytecard",
+    "viewers": 2,
+    "image": "/assets/live/live6.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 7,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/36.jpg",
+    "username": "qhanaford6",
+    "title": "Guns at Batasi",
+    "game": "Sonsing",
+    "viewers": 57,
+    "image": "/assets/live/live7.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 8,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/27.jpg",
+    "username": "dgrove7",
+    "title": "Streetcar Named Desire, A",
+    "game": "Stim",
+    "viewers": 4,
+    "image": "/assets/live/live8.jpeg",
+    "tags": ["English", "game", "live"]
+  },
+  {
+    "id": 9,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/34.jpg",
+    "username": "pstreeton8",
+    "title": "Tigerland",
+    "game": "Lotstring",
+    "viewers": 14,
+    "image": "/assets/live/live9.jpeg",
+    "tags": ["English", "game", "live"]
+  }
+]

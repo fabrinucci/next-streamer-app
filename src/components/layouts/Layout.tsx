@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Head from 'next/head';
 import { Navbar } from 'components/navbar';
+import { SideMenu } from '../main';
 
 interface Props {
   children: ReactNode;
@@ -13,9 +14,9 @@ export const Layout = ({ children, title }: Props): JSX.Element => {
       <Head>
         <title>{title}</title>
         <meta name='author' content='Fabrizio Nucci' />
-        <meta name='title' content={`PokeBosti | ${title}`} />
-        <meta name='description' content={`PokeBosti | Info about ${title}`} />
-        <meta name='keywords' content='pokemon, pokedex, pokebosti' />
+        <meta name='title' content={title} />
+        <meta name='description' content={`Info about ${title}`} />
+        <meta name='keywords' content='stream, videos, bosstream' />
         <meta property='og:title' content={`Info about ${title}`} />
         <meta
           property='og:description'
@@ -27,7 +28,7 @@ export const Layout = ({ children, title }: Props): JSX.Element => {
         <Navbar />
       </header>
 
-      <main>{children}</main>
+      <>{children}</>
     </>
   );
 };

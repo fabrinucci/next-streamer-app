@@ -6,7 +6,7 @@ import { signOut, useSession } from 'next-auth/react';
 export function AccountMenu() {
   const { data: session } = useSession();
   return (
-    <Menu as='div' className='relative' title='More'>
+    <Menu as='div' className='relative z-10' title='More'>
       <Menu.Button className='flex'>
         <Image
           className='rounded-full'
