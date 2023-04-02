@@ -7,6 +7,7 @@ const nextConfig = {
       'lh3.googleusercontent.com',
       'robohash.org',
       'xsgames.co',
+      'static-cdn.jtvnw.net',
     ],
   },
 };

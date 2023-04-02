@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Games",
+    "image": "https://static-cdn.jtvnw.net/c3-vg/verticals/gaming.svg"
+  },
+  {
+    "id": 2,
+    "title": "IRL",
+    "image": "https://static-cdn.jtvnw.net/c3-vg/verticals/irl.svg"
+  },
+  {
+    "id": 3,
+    "title": "Music",
+    "image": "https://static-cdn.jtvnw.net/c3-vg/verticals/music.svg"
+  },
+  {
+    "id": 4,
+    "title": "Esports",
+    "image": "https://static-cdn.jtvnw.net/c3-vg/verticals/esports.svg"
+  },
+  {
+    "id": 5,
+    "title": "Creative",
+    "image": "https://static-cdn.jtvnw.net/c3-vg/verticals/creative.svg"
+  }
+]

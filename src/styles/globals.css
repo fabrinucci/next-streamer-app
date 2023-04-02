@@ -18,3 +18,40 @@ html {
   background-color: #6a6a6a;
   border-radius: 10px;
 }
+
+.show-button {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.show-button:before {
+  border-top: 1px solid #2e2e35;
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.decorative-line {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.decorative-line:before {
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Just Chatting",
+    "viewers": 389,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/509658.jpg",
+    "tags": ["IRL"]
+  },
+  {
+    "id": 2,
+    "title": "League of Legends",
+    "viewers": 153,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/21779.jpg",
+    "tags": ["Action", "RPG"]
+  },
+  {
+    "id": 3,
+    "title": "Resident Evil 4",
+    "viewers": 102,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/322503446_IGDB.jpg",
+    "tags": ["Horror", "Action"]
+  },
+  {
+    "id": 4,
+    "title": "Fifa 23",
+    "viewers": 36,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/1745202732_IGDB.jpg",
+    "tags": ["Sports Game"]
+  },
+  {
+    "id": 5,
+    "title": "VALORANT",
+    "viewers": 122,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/516575.jpg",
+    "tags": ["Shooter", "Action"]
+  },
+  {
+    "id": 6,
+    "title": "Dead by Daylight",
+    "viewers": 49,
+    "image": "https://static-cdn.jtvnw.net/ttv-boxart/491487.jpg",
+    "tags": ["Strategy", "Horror"]
+  }
+]

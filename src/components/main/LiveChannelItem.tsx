@@ -7,7 +7,7 @@ interface Props {
 }
 
 export const LiveChannelItem = ({ channel }: Props) => {
-  const { avatar, game, title, username, viewers, image, tags } = channel;
+  const { avatar, category, title, username, viewers, image, tags } = channel;
   return (
     <article>
       <div className='relative cursor-pointer rounded-sm bg-gray-600'>
@@ -40,13 +40,13 @@ export const LiveChannelItem = ({ channel }: Props) => {
             {username}
           </p>
           <p className='cursor-pointer text-[.95rem] text-gray-400 hover:text-emerald-500 hover:duration-200 hover:ease-in'>
-            {game}
+            {category}
           </p>
           <ul className='mt-2 flex gap-2'>
             {tags.map((tag, index) => (
               <li
                 key={index}
-                className='cursor-pointer rounded-full bg-zinc-800 py-[.1rem] px-3 text-sm font-bold text-gray-400 hover:bg-zinc-700 hover:transition-all'
+                className='cursor-pointer rounded-full bg-zinc-800 py-[.1rem] px-3 text-[.8rem] font-bold text-zinc-300 hover:bg-zinc-700 hover:transition-all'
               >
                 {tag}
               </li>
