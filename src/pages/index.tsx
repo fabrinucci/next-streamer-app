@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className='pt-16'>
       <SideMenu />
-      <main className='fixed ml-[56px] h-full overflow-y-scroll px-6 lg:ml-[242px]'>
+      <main className='ml-[56px] px-6 lg:ml-[242px]'>
         <Hero />
         <LiveChannels />
         <CategoriesList />
