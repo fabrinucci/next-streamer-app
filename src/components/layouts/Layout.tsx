@@ -1,8 +1,6 @@
 import { ReactNode } from 'react';
 import Head from 'next/head';
 import { Navbar } from 'components/navbar';
-import { SideMenu } from '../main';
-import Link from 'next/link';
 
 interface Props {
   children: ReactNode;
@@ -30,21 +28,6 @@ export const Layout = ({ children, title }: Props): JSX.Element => {
       </header>
 
       <>{children}</>
-
-      <footer className='mx-auto ml-[56px] mt-16 border-t border-[#2e2e35] p-10 lg:ml-[242px]'>
-        <h2 className='text-center text-xl font-semibold'>
-          Make by{' '}
-          <Link
-            href='https://github.com/fabrinucci'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <span className='text-emerald-500 transition-all hover:text-emerald-400'>
-              Fabrizio Nucci
-            </span>
-          </Link>
-        </h2>
-      </footer>
     </>
   );
 };
