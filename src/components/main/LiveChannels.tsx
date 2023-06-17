@@ -1,5 +1,5 @@
 import { FaChevronDown } from 'react-icons/fa';
-import channels from 'data/channels.json';
+import channels from 'data/mainChannels.json';
 import { LiveChannelItem } from './';
 
 export const LiveChannels = () => {

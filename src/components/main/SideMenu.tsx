@@ -1,5 +1,4 @@
-import React from 'react';
-import data from 'data/data.json';
+import channels from 'data/recommendedChannels.json';
 import Image from 'next/image';
 import { RxDotFilled } from 'react-icons/rx';
 import { FiVideo } from 'react-icons/fi';
@@ -19,7 +18,7 @@ export const SideMenu = () => {
         </div>
       </section>
       <section className='mb-16'>
-        {data.map((user) => (
+        {channels.map((user) => (
           <div
             title={`${user.username} channel`}
             className='flex cursor-pointer justify-between p-2 lg:pr-4 lg:duration-150 lg:ease-out lg:hover:bg-slate-700'

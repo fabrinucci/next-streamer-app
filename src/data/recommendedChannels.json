@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/22.jpg",
+    "username": "The Crattles",
+    "game_name": "Just Chatting",
+    "viewers": 7
+  },
+  {
+    "id": 2,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/76.jpg",
+    "username": "xcaseley1",
+    "game_name": "Sports",
+    "viewers": 39
+  },
+  {
+    "id": 3,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/29.jpg",
+    "username": "mtapper",
+    "game_name": "Just Chatting",
+    "viewers": 30
+  },
+  {
+    "id": 4,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
+    "username": "Sub-Ex",
+    "game_name": "Resident Evil 4",
+    "viewers": 22
+  },
+  {
+    "id": 5,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/69.jpg",
+    "username": "La_Desgastada",
+    "game_name": "Rust",
+    "viewers": 12
+  },
+  {
+    "id": 6,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/42.jpg",
+    "username": "Peperline",
+    "game_name": "Resident Evil 4",
+    "viewers": 4
+  },
+  {
+    "id": 7,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/29.jpg",
+    "username": "FixSam",
+    "game_name": "Just Chatting",
+    "viewers": 72
+  },
+  {
+    "id": 8,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/14.jpg",
+    "username": "jpeter77",
+    "game_name": "Fortnite",
+    "viewers": 25
+  },
+  {
+    "id": 9,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/24.jpg",
+    "username": "maryinhouse",
+    "game_name": "ASMR",
+    "viewers": 40
+  },
+  {
+    "id": 10,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/39.jpg",
+    "username": "DjWaRiiO",
+    "game_name": "Fifa 23",
+    "viewers": 52
+  },
+  {
+    "id": 11,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/33.jpg",
+    "username": "wangJAMESON",
+    "game_name": "VALORANT",
+    "viewers": 9
+  },
+  {
+    "id": 12,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/73.jpg",
+    "username": "Dellob",
+    "game_name": "Just Chatting",
+    "viewers": 29
+  },
+  {
+    "id": 13,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/male/72.jpg",
+    "username": "mrScotfield",
+    "game_name": "Diablo IV",
+    "viewers": 6
+  },
+  {
+    "id": 14,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/71.jpg",
+    "username": "iamTina",
+    "game_name": "Sports",
+    "viewers": 16
+  },
+  {
+    "id": 15,
+    "avatar": "https://xsgames.co/randomusers/assets/avatars/female/78.jpg",
+    "username": "TheLadyBlue",
+    "game_name": "Diablo IV",
+    "viewers": 2
+  }
+]
