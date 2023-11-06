@@ -1,4 +1,6 @@
-<h1 align="center">Welcome to Streamer bos app 👋</h1>
+![BosStream](https://github.com/fabrinucci/next-streamer-app/blob/main/public/home.webp)
+
+<h1 align="center">BosStream app 👋</h1>
 <p>
   <a href="https://github.com/fabrinucci/next-streamer-app/blob/main/LICENCE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -8,7 +10,7 @@
   </a>
 </p>
 
-> Streamer Bos App description
+> Streamer Bos App
 
 ### 🏠 [Homepage](https://github.com/fabrinucci/next-streamer-app)
 
@@ -45,20 +47,25 @@ openssl rand -base64 32
 
 ## Technologies
 
-- [Next.js](https://nextjs.org/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Headlessui](https://headlessui.com/)
-- [React icons](https://react-icons.github.io/react-icons/)
-- [Next auth](https://next-auth.js.org/)
+[![ReactJS](https://img.shields.io/static/v1?label=&message=reactjs&color=149ECA&logo=react&logoColor=white&style=for-the-badge)](https://react.dev/)
+[![NextJS](https://img.shields.io/static/v1?label=&message=nextjs&color=0d0d0d&logo=next.js&logoColor=white&style=for-the-badge)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/static/v1?label=&message=typescript&color=3178C6&logo=typescript&logoColor=white&style=for-the-badge)](https://www.typescriptlang.org/)
+[![NextAuth](https://img.shields.io/static/v1?label=&message=nextauth&color=A323D9&style=for-the-badge)](https://next-auth.js.org/)
+
+[![TailwindCSS](https://img.shields.io/static/v1?label=&message=TailwindCSS&color=06B6D4&logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)
+[![Headlessui](https://img.shields.io/static/v1?label=&message=headlessui&color=222222&logo=headlessui&logoColor=66E3FF&style=for-the-badge)](https://headlessui.com/)
+[![ReactIcons](https://img.shields.io/static/v1?label=&message=react-icons&color=E91E63&logo=react&logoColor=white&style=for-the-badge)](https://react-icons.github.io/react-icons/)
+
+
 
 ## Author
 
 👤 **Fabrizio Nucci**
 
-- Twitter: [@FabrizioDev](https://twitter.com/FabrizioDev)
-- Github: [@fabrinucci](https://github.com/fabrinucci)
-- LinkedIn: [@fabrinucci](https://linkedin.com/in/fabrinucci)
+[![Website](https://img.shields.io/static/v1?label=&message=website&color=CCCCF1&style=for-the-badge)](https://fabrinucci.github.io)
+[![GitHub](https://img.shields.io/static/v1?label=&message=github&color=181717&logo=github&logoColor=white&style=for-the-badge)](https://github.com/fabrinucci)
+[![LinkedIn](https://img.shields.io/static/v1?label=&message=linkedin&color=0A66C2&logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/fabrinucci)
+[![Twitter](https://img.shields.io/static/v1?label=&message=twitter&color=1D9BF0&logo=twitter&logoColor=white&style=for-the-badge)](https://twitter.com/FabrizioDev)
 
 ## Show your support
 
